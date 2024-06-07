@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   },
   icons: {
     apple: "/apple-touch-icon.png",
+  },
+  other: {
+    "dicoding:email" : "palpal.tech@gmail.com"
   }
 };
 
