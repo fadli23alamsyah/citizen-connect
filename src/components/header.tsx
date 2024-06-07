@@ -45,7 +45,7 @@ export default function Header() {
   return (
     <header className={
       mergeClass(
-        "h-16 sticky top-0 py-2 px-4 flex justify-between items-center",
+        "h-16 sticky top-0 py-2 px-4 flex justify-between items-center z-[1]",
         "bg-gray-50 dark:bg-slate-800 shadow-[0_1px_8px] shadow-black/10 dark:border-b dark:border-white/10 dark:shadow-white/10"
       )
     }>

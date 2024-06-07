@@ -83,7 +83,7 @@ export default function Filter() {
     <div className={
       mergeClass(
         "sticky top-16 py-2 px-3 -mx-3 mb-5 flex flex-wrap justify-between items-center bg-gray-50 dark:bg-slate-800",
-        "shadow-[0_1px_8px] shadow-black/10 dark:border-b dark:border-white/10 dark:shadow-white/10 text-left"
+        "shadow-[0_1px_8px] shadow-black/10 dark:border-b dark:border-white/10 dark:shadow-white/10 text-left z-[1]"
       )
     }>
       <h6>Filter</h6>
