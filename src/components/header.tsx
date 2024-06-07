@@ -26,7 +26,7 @@ const listMenu = [
   },
   {
     title: "User",
-    path: "/login",
+    path: "/user",
     icon: User
   },
 ];
