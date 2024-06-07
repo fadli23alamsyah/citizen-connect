@@ -49,7 +49,8 @@ const Dialog = forwardRef<DialogRef, DialogType>(({
       ref={dialog}
       className={
         mergeClass(
-          "outline-none rounded-lg max-w-full mx-4 md:mx-auto md:max-w-[calc(100vw*2/3)] lg:max-w-[calc(100vw*5/12)] shadow-md bg-gray-50 dark:bg-slate-800",
+          "outline-none rounded-lg max-w-[calc(100vw-32px)] mx-auto md:max-w-[calc(100vw*2/3)] lg:max-w-[calc(100vw*5/12)]",
+          "shadow-md bg-gray-50 dark:bg-slate-800",
           "backdrop:bg-black/50 backdrop:backdrop-blur-sm"
         )
       }
